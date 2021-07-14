@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       //routes  for the screen
+      initialRoute: MyRoutes.homeRoute,
       routes: {
         "/":(context)=>Login(),
         MyRoutes.loginRoute:(context)=>Login(),

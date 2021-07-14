@@ -10,11 +10,12 @@ class Homepage extends StatelessWidget {
     final String last_name="bista";
     return Scaffold(
       appBar: AppBar(
-        title: Text("Snickers"),
-      ),
+        centerTitle: true,
+        title: Text("Book shop"),
+       ),
       body: Center(
         child: Container(
-          child: Text("Hello my name is ${name} ${last_name}"),
+          child: Text("Hello my name is $name $last_name"),
         ),
       ),
       drawer: MyDrawer(),
